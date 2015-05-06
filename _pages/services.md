@@ -12,26 +12,24 @@ order: 2
 	<div class="entry">
 		<p>Commercial cleaning<br />
 Office Buildings<br />
-Schools\ Day Care Centers<br />
+Schools/Day Care Centers<br />
 Churches<br />
 Auto Dealerships<br />
-Dentist offices\ Medical offices<br />
+Dentist/Medical offices<br />
 Banks<br />
 Gyms<br />
 Apartments<br />
 New construction cleaning<br />
 Property Maintenance<br />
 Lighting Maintenance<br />
-Laundry\Linen<br />
+Laundry/Linen<br />
 Window cleaning<br />
 Floor waxing<br />
 Organizing<br />
-And more&#8230;..</p>
+And more&#8230;</p>
 
 		
 	</div>
 </div>
-		<!---->
-	
 </div>
 </div>
