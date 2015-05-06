@@ -1,0 +1,31 @@
+# site configuration
+title: "Example Site"
+email: email@mysite.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+repo: "https://github.com/kellyjandrews/mysite.com/"
+branch: "tree/gh-pages/"
+quiet:    true
+
+# Where things are
+source:      .
+destination: ./_site
+pages:       ./_pages
+layouts:     ./_layouts
+data_source: ./_data
+
+# Handling Reading
+exclude: ["README.md"]
+include: ["_pages"]
+encoding: "utf-8"
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+      type: "pages"
+    values:
+      layout: "default"

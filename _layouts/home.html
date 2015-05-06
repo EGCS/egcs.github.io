@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+	{% include head.html %}
+	
+	<body class='home'>
+
+		<div class="container_12">
+
+			{% include menu.html %}
+
+			{% include slider.html %}
+
+			<div class="grid_12" id="middle-home">
+				{{ content }}
+				<!--=================================================END CONTENT COLUMN=======================-->
+				<!--END HOME PAGE STATCI CONTENT -->
+				{% include sidebar.html %}
+			</div>
+			<div class="clear">&nbsp;</div>
+			<!--=================================================END MIDDLE SECTION=======================-->
+		</div>
+		{% include footer.html %}
+	</body>
+
+</html>

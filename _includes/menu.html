@@ -1,0 +1,20 @@
+<div class="grid_12" id="top-header">
+	<div id="logo">
+		<a href="{{site.baseurl}}/"></a>
+	</div>
+	<div id="myslidemenu" class="jqueryslidemenu">
+		<ul class="menu">
+		{% assign pages = site.pages | sort:"order"  %}
+		{% for node in pages %}
+			{% if page.url == node.url %}
+			<li class="current_page_item" >
+			{% else %}
+			<li>
+			{% endif %}
+				<a href="{{node.baseurl}}{{node.url}}">{{node.title}}</a>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
