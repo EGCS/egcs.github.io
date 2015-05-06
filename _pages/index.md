@@ -1,5 +1,4 @@
 ---
-layout: home
 permalink: /
 title: Home
 order: 0
@@ -19,27 +18,25 @@ order: 0
 						an opportunity to solve these for you with a FREE customized cleaning quote.
 						<br>
 						<br>100% Customer satisfaction guaranteed
-						<!--<p class="more"><a href="http://www.executivegreencleaning.com/welcome-to-egcs/"><img src="http://www.executivegreencleaning.com/wp-content/themes/Global%20Business_egcs/images/view-more.png" alt="more" width="72" height="19" /></a></p>
-		End Welcome page-->
 					</div>
 					<div class="grid_4 alpha">
 						<div class="home-col1">
 							<h3>
-								<!--<span><img src="http://www.executivegreencleaning.com/wp-content/themes/Global%20Business_egcs/images/offer.png" alt="What We Offers" width="24" height="24" /></span>&nbsp;-->Why Green?</h3>There are many benefits of a green cleaning service. Providing your business with a green cleaning service
+Why Green?</h3>There are many benefits of a green cleaning service. Providing your business with a green cleaning service
 							can improve the health of your employees which helps reduce sick days. In turn, the improvement in productivity...
 							<p class="more">
-								<a href="http://www.executivegreencleaning.com/why-green/"><img src="http://www.executivegreencleaning.com/wp-content/themes/Global%20Business_egcs/images/view-more.png" alt="more" width="72" height="19" /></a>
+								<a href="{{site.baseurl}}/why-green/"><img src="{{site.baseurl}}/assets/images/view-more.png" alt="more" width="72" height="19" /></a>
 							</p>
 						</div>
 					</div>
 					<div class="grid_4 omega">
 						<div class="home-col2">
 							<h3>
-								<!--<span><img src="http://www.executivegreencleaning.com/wp-content/themes/Global%20Business_egcs/images/services.png" alt="What We Offers"  width="24" height="24"/></span> &nbsp;-->What is &#8216;Green Cleaning&#8217;?</h3>Cleaning products are a major contributor to indoor air quality issues in closed
+What is &#8216;Green Cleaning&#8217;?</h3>Cleaning products are a major contributor to indoor air quality issues in closed
 							environments. Many contain various toxic chemicals, some of which have high levels of volatile organic compounds (VOCs) which
 							can give rise to...
 							<p class="more">
-								<a href="http://www.executivegreencleaning.com/what-is-green-cleaning/"><img src="http://www.executivegreencleaning.com/wp-content/themes/Global%20Business_egcs/images/view-more.png" alt="more" width="72" height="19" /></a>
+								<a href="{{site.baseurl}}/what-is-green-cleaning/"><img src="{{site.baseurl}}/assets/images/view-more.png" alt="more" width="72" height="19" /></a>
 							</p>
 						</div>
 					</div>

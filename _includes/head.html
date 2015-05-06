@@ -1,39 +1,21 @@
-<!--<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-</head>-->
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name='robots' content='noindex,follow' />
 
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-<link rel="stylesheet" type="text/css" media="all" href="{{site.baseurl}}/assets/css/reset.css" />
-<link rel="stylesheet" type="text/css" media="all" href="{{site.baseurl}}/assets/css/960.css" />
+	  
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css" type="text/css" media="screen" />
-
-<link rel="stylesheet" type="text/css" media="all" href="{{site.baseurl}}/assets/css/jqueryslidemenu.css" />
-
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/testimonials.js"></script>
+{% if page.url == '/' %}
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/jcarousellite.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/easing.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/jqueryslidemenu.js"></script>
-
 	
-    
-<!--[if lt IE 7.]>
-<script defer type="text/javascript" src="{{site.baseurl}}/assets/js/pngfix.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/unitpngfix.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="{{site.baseurl}}/assets/css/ie6.css" />
-<![endif]-->
-
-<!-- *********************HOME SLIDER*****************************************  -->
 <script type="text/javascript">
  $(function() {
 	
@@ -44,34 +26,8 @@
 		easing: "easeinout",
 		auto: 4000,
 		speed: 1000
-    });
-
-	 
+    });	 
 });
 </script>
-	
-	
-
-<meta name='robots' content='noindex,follow' />
-<script type='text/javascript' src='http://www.executivegreencleaning.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
-<script type='text/javascript' src='http://www.executivegreencleaning.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='http://www.executivegreencleaning.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
-
-<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
-<script type="text/javascript">
-	var analyticsFileTypes = [''];
-	var analyticsEventTracking = 'enabled';
-</script>
-<script type="text/javascript">
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-21378145-2']);
-	_gaq.push(['_trackPageview']);
-	_gaq.push(['_trackPageLoadTime']);
-
-	(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	})();
-</script>
+{% endif %}	
 </head>

@@ -4,7 +4,7 @@ permalink: /what-is-green-cleaning/
 order: 4
 ---
 
-<div class="grid_12" id="middle">
+
 <div class="grid_8 alpha" id="content-column">
 	<div class="content-column">
 
